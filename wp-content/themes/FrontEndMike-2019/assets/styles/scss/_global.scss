@@ -3,10 +3,39 @@
 Stylesheet: Global Stylesheet
 
 *************************************************/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700');
+
 
 /*********************
 POSTS & CONTENT STYLES
 *********************/
+h1,h2, h3{
+	font-family: $Roboto;
+	text-transform: uppercase;
+	margin: 0 auto;
+	line-height: 1;
+}
+h1{
+	color: $blue;
+	font-weight: 700;
+	font-size: 2.5rem;
+}
+h2{
+	color: $gray;
+	font-weight: 700;
+	font-size: 2.5rem;
+}
+
+h3{
+	color: $gray;
+}
+p{
+	font-family: $Open;
+}
+
+
+
+
 .page-title {
 	
 	// Remove Foundation vcard styling from author page titles
@@ -500,7 +529,7 @@ footer.footer{
 HOME
 *********************/
 .hero{
-	padding: 4rem 0rem;
+	padding: 15rem 0rem;
 	background-color: gray;
 	text-align: center;
 	margin-bottom: 3rem;
